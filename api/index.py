@@ -13,7 +13,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = os.environ.get("BOT_TOKEN", "")
+TOKEN = os.environ.get("8977664827:AAGTUytpAg4gPl7xsmxBQN2U-pZehBaqRTk", "")
 
 logging.basicConfig(level=logging.INFO)
 application = Application.builder().token(TOKEN).updater(None).build()
